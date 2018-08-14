@@ -3,11 +3,50 @@
   <head>
     <title>CEP Engineering Application</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto Slab" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   </head>
   <body>
-    // All of your HTML goes here
+      <!--This header image was taken in Scotland on the Isle of Skye.-->
+      <header class="main-header">
+      </header>
+      <h1 class="triumphant-headline">Tom Harris is applying for the CEP!</h1>
+      <div class="row">
+          <div class="column col1">
+              <h2>Le Requisite <em>Image</em></h2>
+              <div class="selfie">
+                  <img src="img/selfie.png" alt="me with a llama" class="images">
+                  <p>This here is me with a llama. The llama is on the right in case you were wondering. Yes, we're being photobombed.</p>
+              </div>
+          </div>
+          <div class="column col2">
+              <h2>JS Button Madness!</h2>
+                  <div class="flex-container">
+                      <div><button class="ui-button fname-button">FIRST NAME</button></div>
+                      <div><p id="fname-text"></p></div>
+                  </div>
+                  <div class="flex-container">
+                      <div><button class="ui-button lname-button">LAST NAME</button></div>
+                      <div><p id="lname-text"></p></div>
+                  </div>
+                  <div class="flex-container">
+                      <div><button class="ui-button job-button">JOB TITLE</button></div>
+                      <div><p id="job-text"></p></div>
+                  </div>
+                  <div class="flex-container">
+                      <div><button class="ui-button office-button">HOME OFFICE</button></div>
+                      <div><p id="office-text"></p></div>
+                  </div>
+                  <div class="flex-container">
+                      <div><button class="ui-button tell-me-button">TELL ME MORE</button></div>
+                      <div><p id="tell-me-text"></p></div>
+                  </div>
+          </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="init.js"></script>
   </body>
 </html>
